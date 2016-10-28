@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 
+//hi!
+
 std::vector<std::string> v_grammar, v_dot, v_goto, v_temp, v_temp2, v_temp3;
 std::vector< std::vector< std::string > > v_items;
 //std::map<std::string, std::string> m_iSet;
