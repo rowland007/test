@@ -36,12 +36,17 @@ Now you are ready for the program to be distributed!! The end user will just nee
 ```
 ./configure && make && make install
 ```
+**DO NOT** add `configure`, `Makefile.in`, or any of the other files from running `autoconf` and `automake` to the repository. That will break the Travis CI testing.
 
 ### Travis CI Instructions
 
 Add a `.travis.yml` file to the root directory of the repository. Inside the `.travis.yml` file you will need:
 ```
 language: cpp
+before_install:
+  - aclocal
+  - autoconf
+  - automake --add-missing
 ```
 For more information on what can be placed in the `.travis.yml` file, see the **References** section. Currently Travis CI only works on Linux and OSX.
 
