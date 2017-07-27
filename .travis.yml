@@ -1,4 +1,4 @@
 language: cpp
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y automake
+  - autoconf
+  - automake --add-missing
