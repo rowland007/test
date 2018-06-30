@@ -1,7 +1,8 @@
 # Test
 
-Master Branch:[![Build Status](https://travis-ci.org/rowland007/test.svg?branch=master)](https://travis-ci.org/rowland007/test)
-Development Branch:[![Build Status](https://travis-ci.org/rowland007/test.svg?branch=development)](https://travis-ci.org/rowland007/test)
+Master Branch: [![Build Status](https://travis-ci.org/rowland007/test.svg?branch=master)](https://travis-ci.org/rowland007/test)
+
+Development Branch: [![Build Status](https://travis-ci.org/rowland007/test.svg?branch=development)](https://travis-ci.org/rowland007/test)
 
 ### Purpose
 This repository is used to test out features of development tools such as Travis CI, autoconf, Git, and GitHub. 
@@ -55,9 +56,11 @@ For more information on what can be placed in the `.travis.yml` file, see the **
 * [Autotools Tutorial]
 * [Travis CI Documentation]
 * [Autoconf Manual]
+* [Git Message Templates]
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 [Travis CI Documentation]: <https://docs.travis-ci.com/>
 [Autotools Tutorial]: <https://robots.thoughtbot.com/the-magic-behind-configure-make-make-install>
 [Autoconf Manual]: <https://www.gnu.org/software/autoconf/manual/autoconf.html>
+[Git Message Templates]: <https://gist.github.com/adeekshith/cd4c95a064977cdc6c50>
